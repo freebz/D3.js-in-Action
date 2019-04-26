@@ -1,0 +1,46 @@
+/* 리스트 11.2 bigdata.css */
+
+body, html {
+    margin: 0;
+}
+
+/* 이번 장에서는 SVG를 캔버스 앞에 놓으며,
+   캔버스 요소와 SVG 요소를 같은 위치에 놓는다. */
+canvas {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+/* SVG도 같은 위치에 설정한다. */
+svg {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+path.country {
+    fill: gray;
+    stroke-width: 1;
+    stroke: black;
+    opacity: .5;
+}
+path.sample {
+    stroke: black;
+    stroke-width: 1px;
+    fill: red;
+    fill-opacity: .5;
+}
+line.link {
+    stroke-width: 1px;
+    stroke: black;
+    stroke-opacity: .5;
+}
+circle.node {
+    fill: red;
+    stroke: white;
+    stroke-width: 1px;
+}
+circle.xy {
+    fill: pink;
+    stroke: black;
+    stroke-width: 1px;
+}

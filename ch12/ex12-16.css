@@ -1,0 +1,19 @@
+/* 리스트 12.16 태블릿 앱용 CSS 추가 */
+
+rect.extent {
+    opacity: .25;
+}
+
+g.resize > circle {
+    fill: lightgray;
+    stroke: black;
+    stroke-width: 5px;
+}
+
+text.brushLabel {
+    font-size: 40px;
+    font-weight: 900;
+    text.anchor: middle;
+    opacity: .5;
+    pointer-events: none;
+}

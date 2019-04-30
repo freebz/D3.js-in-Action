@@ -1,0 +1,26 @@
+/* 리스트 12.13 데스크톱 앱용 CSS 추가 */
+
+#modal {
+    position: absolute;
+    height: 130px;
+    width: 200px;
+    background: white;
+    box-shadow: 2px 2px 0px #888888;
+    border: 1px #888888 solid;
+
+    /* 첫 번째 마우스오버 이벤트가 발생할 때까지 팝업을 화면 밖에 둔다. */
+    left: -300px;
+    top: -300px;
+}
+
+#modal > p {
+    margin: 2px;
+    padding: 2px;
+}
+
+div.list {
+    float: left;
+    height: 90%;
+    width: 18%;
+    overflow: auto;
+}

@@ -1,0 +1,30 @@
+/* 리스트 12.19 스마트폰 앱용 CSS 추가 */
+
+/* 현재 뷰에 적용할 생성된 제목을 담고 있다.
+   폰트 크기가 엄청나게 크다. */
+div.viewTitle {
+    font-size: 54px;
+    font-weight: 900;
+    color: darkred;
+    position: fixed;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 140px;
+    background: rgba(255,255,255,.95);
+    text-align: center;
+}
+/* 현재 뷰에 대한 통계정보를 담고 있다. */
+div.viewStats {
+    font-size: 54px;
+    font-weight: 900;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    background: rgba(255,255,255,.95);
+    text-align: center;
+}
+div.viewStats > div {
+    width: 100%;
+}
